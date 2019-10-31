@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="title" content="${title}">
+<meta name="description" content="description">
+<meta name="keywords" content="my keywords with commas">
+<meta name="robots" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+
+
+<title> ${title}</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://tessarinseve.pythonanywhere.com/js/jquery.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+    <style>
+body {  color: wheat;
+  background-image: url("./imgs/background.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-color:#800000ff;
+  padding-top: 150px;
+  padded-left:15px:
+  padded-right:10px;
+
+} 
+
+    </style>
+
+
+  </head>
+  <body   style="opacity:0;">
+
+
+    <nav class="navbar navbar-expand-md fixed-top">
+      <a class="navbar-brand navbar-left"  href="#"><img src="./imgs/navbar.png"/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarWS" aria-controls="navbarWs" aria-expanded="false" aria-label="Toggle navigation" style="margin-left: 10px;background-color:  #800000ff;
+      border-color:none">
+        <span class="navbar-toggler-icon" style="z-index:1000;color:wheat;background:none">
+          <span class="fa fa-reorder ti"></span>
+        </span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarWS" style="margin-left:25px;margin-top:10px">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><i class="fa fa-home fa-2x" aria-hidden="true"></i><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Link 1</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+ ${next.body()}
+
+ 
+ 
+ ${footer}
+
+
+ 
+ </div><!-- /.container -->
+    <script>
+
+      ${javascript}
+    </script>
+  </body>
+</html>
+
